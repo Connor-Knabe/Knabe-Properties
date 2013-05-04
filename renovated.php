@@ -3,7 +3,6 @@
 <html lang="en">
   <head>
   <?php include("include/header.php"); ?>
-
 	<script type="text/javascript">
 	$(document).ready(function() {
 		$.getJSON('p.json',function(data){
@@ -23,14 +22,12 @@
       info.append(price);
       info.append(size);
       info.append(lotsize);
-
       var picture = $('<div>').addClass('span6 picture1css');
       picture.append($('<img>').attr('src',entry['Pic']));
       property.append(info);     
       property.append(picture);
       $('#content').append(property)
       console.log("HAY");
-			//$('#content').append(html);
 			});              
 		});
 		return false;
