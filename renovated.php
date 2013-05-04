@@ -10,12 +10,12 @@
 			$.each(data, function(entryIndex, entry){
       var property = $('<div>').addClass('row-fluid propertycss');
       var info = $('<div>').addClass('span6 infocss'); 
-      var name = $('<h5>').addClass('name').html("Property Name: "+entry['Name']);
-      var address = $('<div>').addClass('p_address').html("Address: "+entry['Address']);
-      var beds = $('<div>').addClass('p_beds').html("Beds: "+entry['Beds']);
-      var price = $('<div>').addClass('p_price').html("Price: "+entry['Price']);
-      var size = $('<div>').addClass('p_size').html("Size: "+entry['Size']);
-      var lotsize = $('<div>').addClass('p_lotsize').html("Lot Size: "+entry['LotSize']);
+      var name = $('<div>').attr('id', 'name').html("<b>Property Name: </b>"+entry['Name']);
+      var address = $('<div>').attr('id', 'p_address').html("<b>Address: </b>"+entry['Address']);
+      var beds = $('<div>').attr('id', 'p_beds').html("<b>Beds: </b>"+entry['Beds']);
+      var price = $('<div>').attr('id', 'p_price').html("<b>Price: </b>"+entry['Price']);
+      var size = $('<div>').attr('id', 'p_size').html("<b>Size: </b>"+entry['Size']);
+      var lotsize = $('<div>').attr('id', 'p_lotsize').html("<b>Lot Size: </b>"+entry['LotSize']);
       info.append(name);
       info.append(address);
       info.append(beds);
