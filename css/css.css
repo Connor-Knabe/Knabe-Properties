@@ -3,9 +3,25 @@
         padding-bottom: 60px;
       }
       /*CSS for properties*/
-      #p_address{
-        font-size: 20px;
+      #name{
+        font-size:20px;
       }
+      #p_address{
+        font-size: 15px;
+      }
+      #p_beds{
+        font-size: 15px;
+      }
+      #p_price{
+        font-size: 15px;
+      }
+      #p_size{
+        font-size: 15px;
+      }
+      #p_lotsize{
+        font-size: 15px;
+      }
+
       .span6.picture1css {
         margin-top: 25px;
       }
