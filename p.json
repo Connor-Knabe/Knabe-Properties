@@ -1,0 +1,38 @@
+[
+        {
+            "Name" : "Fieldhurst",
+            "Address" : "1209 Fieldhurst,  Manchester, MO 63011",
+            "Beds" : "4",
+            "Price" : "$157,000",
+            "Size" : "1750 square feet",
+            "LotSize" : "10,000 square feet",
+            "Pic" : "test.jpg"      
+        },
+        {
+            "Name" : "Chateau Village",
+            "Address" : "14969 Chateau Village Drive, Chesterfield, MO 63017",
+            "Beds" : "4",
+            "Price" : "$700,000",
+            "Size" : "2421 square feet",
+            "LotSize" : "23,522 acres",
+            "Pic" : "test.jpg"      
+        },
+        {
+            "Name" : "Wild Berry",
+            "Address" : "1519 Wild Berry, Ballwin, MO 63021",
+            "Beds" : "4",
+            "Price" : "$219,000",
+            "Size" : "1786 square feet",
+            "LotSize" : "9147 square feet",
+            "Pic" : "test.jpg"      
+        },
+        {
+            "Name" : "Sunstone",
+            "Address" : "482 Sunstone, Ballwin, MO 63011",
+            "Beds" : "4",
+            "Price" : "$225,000",
+            "Size" : "2079 square feet",
+            "LotSize" : "10454",
+            "Pic" : "test.jpg"      
+        }
+]
