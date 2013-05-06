@@ -1,0 +1,29 @@
+CS 2830 Documentation Final Project
+
+1. Have a seperate css style sheet and I used twitter bootstrap to organize things using a 12 div span.
+
+2. I used twitter bootstrap to organize my pages witha  fluid design so each page looks similar but with different content.  
+
+3.The webpages were designed with PHP in mind where I have include functions to hold each header, footer, login form and other content that was similar accross the website.
+
+
+4-5.There is a login on every page that gives you access to a protected page and adds a new tab to the nav bar.  You cannot access this page without logging in.
+
+6.There is PHP on every page to include other pages and the login form is presented on every page.
+
+7.I use GET/POST in the login.  I use POST for the login and GET to check and see if the login button was clicked in order to unset the session and destroy it.
+
+8.We talked about this during office hours
+
+9.If the user enters incorrect information if displays a message saying to reenter the user/pass.  I decided to not tell the user if the username or password is incorrect for security reasons.
+
+10.The renovated page shows multiple pictures of houses.
+
+11. There are youtube videos embedded on the protected.php page
+
+12-15.  JavaScript/jQuery/AJAX is used to grab information from a JSON file and then display that information including a picture on the renovated.php page.
+
+16. I also built this webpage for my dad's business and I plan on buying a domain when he is ready to launch the site.  
+
+17.http://babbage.cs.missouri.edu/~ckgdd/Knabe/
+https://github.com/Connor-Knabe/Knabe_Properties
