@@ -6,7 +6,7 @@
             "Price" : "$157,000",
             "Size" : "1750 square feet",
             "LotSize" : "10,000 square feet",
-            "Pic" : "property_imgs/test.jpg"      
+            "Pic" : ["property_imgs/test.jpg","property_imgs/house.jpg","property_imgs/test.jpg","property_imgs/test.jpg"]      
         },
         {
             "Name" : "Chateau Village",
@@ -15,7 +15,7 @@
             "Price" : "$700,000",
             "Size" : "2421 square feet",
             "LotSize" : "23,522 acres",
-            "Pic" : "property_imgs/test.jpg"      
+            "Pic" : ["property_imgs/test.jpg","property_imgs/test.jpg","property_imgs/test.jpg","property_imgs/test.jpg"]      
         },
         {
             "Name" : "Wild Berry",
@@ -24,7 +24,7 @@
             "Price" : "$219,000",
             "Size" : "1786 square feet",
             "LotSize" : "9147 square feet",
-            "Pic" : "property_imgs/test.jpg"      
+            "Pic" : ["property_imgs/test.jpg","property_imgs/test.jpg","property_imgs/test.jpg","property_imgs/test.jpg"]      
         },
         {
             "Name" : "Sunstone",
@@ -33,6 +33,6 @@
             "Price" : "$225,000",
             "Size" : "2079 square feet",
             "LotSize" : "10454",
-            "Pic" : "property_imgs/test.jpg"      
+            "Pic" : ["property_imgs/test.jpg","property_imgs/test.jpg","property_imgs/test.jpg","property_imgs/test.jpg"]      
         }
 ]
