@@ -23,11 +23,22 @@
       info.append(size);
       info.append(lotsize);
       var picture = $('<div>').addClass('span6 picture1css');
-      picture.append($('<img>').attr('src',entry['Pic']));
+      var image = $('<img>').attr('src',entry['Pic'][0]).attr('id','image_'+entryIndex);
+      picture.append(image);
+      var thumbnails = $('<div>').addClass('span6 offset6 thumbnail_css');
+      for(var i=0;i<entry['Pic'].length;i++){
+        var thumb = $('<img>').attr('src',entry['Pic'][i]);
+        thumb.addClass('thumbnail_img');
+        $(thumb).click(function(){
+          $('#image_'+entryIndex).attr('src',entry['Pic'][i]);
+        });
+        thumbnails.append(thumb);
+      }
       property.append(info);     
       property.append(picture);
+      property.append(thumbnails);
+
       $('#content').append(property)
-      console.log("HAY");
       });              
     });
     return false;

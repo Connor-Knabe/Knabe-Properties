@@ -3,6 +3,16 @@
         padding-bottom: 60px;
       }
       /*CSS for properties*/
+      .thumbnail_css{
+        text-align: right;
+      }
+      .thumbnail_img{
+        height: 100px;
+        width: 100px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
       #name{
         font-size:20px;
       }

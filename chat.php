@@ -20,7 +20,8 @@
 
       <div class="row-fluid">
         <div id="content" class="span2 offset5">
-          <iframe src="http://peaceful-lake-1188.herokuapp.com/"></iframe>
+          <iframe src="http://intense-inlet-2951.herokuapp.com/"></iframe>
+          Credit to MizzouACM for helping me with this
         </div>
 		  </div>
 
