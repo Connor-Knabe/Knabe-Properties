@@ -3,11 +3,11 @@
 <html lang="en">
   <head>
   <?php include("include/header.php"); ?>
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$.getJSON('p.json',function(data){
-			$('#content').empty();
-			$.each(data, function(entryIndex, entry){
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $.getJSON('p.json',function(data){
+      $('#content').empty();
+      $.each(data, function(entryIndex, entry){
       var property = $('<div>').addClass('row-fluid propertycss');
       var info = $('<div>').addClass('span6 infocss'); 
       var name = $('<div>').attr('id', 'name').html("<b>Property Name: </b>"+entry['Name']);
@@ -28,11 +28,11 @@
       property.append(picture);
       $('#content').append(property)
       console.log("HAY");
-			});              
-		});
-		return false;
-	});
-	</script>
+      });              
+    });
+    return false;
+  });
+  </script>
   </head>
 
   <body>
@@ -47,12 +47,12 @@
       </div>
 
 
-		
+    
 
       <div class="row-fluid">
         <div id="content" class="span10 offset1">
         </div>
-		  </div>
+      </div>
 
       <hr>
 
@@ -63,4 +63,3 @@
     </div> <!-- /container -->
 
   </body>
-</html>

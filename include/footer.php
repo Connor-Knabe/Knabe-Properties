@@ -1,4 +1,4 @@
-<div class="footer">
+<div align = "center" class="footer">
     <p>&copy; Knabe Properties llc.</p>
                  
 	<?php
@@ -9,10 +9,12 @@
 	if (isset($_SESSION['login']) && $_SESSION['login'] == $hash) {
 
 	  ?>
-	      
+	<div id = "login"
+
 	    <p>Hello <?php echo $username; ?>, you have logged in!</p>
 	    <a href="?logout=true">Click here to logout</a>
 	    <br>
+	</div>
 	  <?php
 
 	}
@@ -28,15 +30,19 @@
 	//Submit the form
 	 
 	function display_login_form(){ ?>
+	<div id = "login"
 	  <p>Login to access the videos about flipping
 	  <form action="<?php echo $self; ?>" method='post'>
 	  <label for="username">username</label>
 	  <input type="text" name="username" id="username">
 	  <label for="password">password</label>
 	  <input type="password" name="password" id="password">
+	  <br>
 	  <input type="submit" name="submit" value="submit">
 	  </form> 
 	  </p>
+	</div>
+
 
 	<?php } ?>
 

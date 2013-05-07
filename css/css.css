@@ -4,7 +4,7 @@
       }
       /*CSS for properties*/
       #name{
-        font-size:25px;
+        font-size:20px;
       }
       #p_address{
         font-size: 15px;
@@ -21,11 +21,11 @@
       #p_lotsize{
         font-size: 15px;
       }
-
+      #input{
+        text-align: center;
+      }
       .span6.picture1css {
         margin-top: 25px;
-        width: 50%;
-        height: 50%;
       }
       .data1{
         height:150px;
