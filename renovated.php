@@ -26,11 +26,23 @@
       var image = $('<img>').attr('src',entry['Pic'][0]).attr('id','image_'+entryIndex);
       picture.append(image);
       var thumbnails = $('<div>').addClass('span6 offset6 thumbnail_css');
-      for(var i=0;i<entry['Pic'].length;i++){
+      var thumb1 = $('<img>').attr('src',entry['Pic'][0]);
+      thumb1.addClass('thumbnail_img thumb_selected');
+      thumbnails.append(thumb1);
+
+      $(thumb1).click(function(){
+          $('.thumbnail_img').removeClass('thumb_selected');
+          $('#image_'+entryIndex).attr('src',this.src);
+          $(this).addClass('thumb_selected');
+        });
+
+      for(var i=1;i<entry['Pic'].length;i++){
         var thumb = $('<img>').attr('src',entry['Pic'][i]);
         thumb.addClass('thumbnail_img');
         $(thumb).click(function(){
-          $('#image_'+entryIndex).attr('src',entry['Pic'][i]);
+          $('.thumbnail_img').removeClass('thumb_selected');
+          $('#image_'+entryIndex).attr('src',this.src);
+          $(this).addClass('thumb_selected');
         });
         thumbnails.append(thumb);
       }

@@ -3,9 +3,10 @@
         padding-bottom: 60px;
       }
       /*CSS for properties*/
-      .thumbnail_css{
-        text-align: right;
+      .thumb_selected{
+        border: 10px solid green ;
       }
+      
       .thumbnail_img{
         height: 100px;
         width: 100px;
@@ -36,6 +37,8 @@
       }
       .span6.picture1css {
         margin-top: 25px;
+        max-width: auto;
+        max-height: auto;
       }
       .data1{
         height:150px;
