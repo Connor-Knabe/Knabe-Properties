@@ -15,16 +15,7 @@
         </p>
         <a class="btn btn-large btn-success" href="contact.php">Contact Us!</a>
       </div>
-      <hr>
-      <!-- Example row of columns -->
-      <div class="featured">
-        <h1>Featured Listings </h2>
-      </div>
-      <div class="row-fluid">
-       <p>
-        Featured Listings coming soon
-       </p>
-      </div>
+      
       <hr>
       <?php include("include/footer.php"); ?>
   </body>

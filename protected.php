@@ -1,18 +1,10 @@
+<?php include("include/loginheader.php"); ?>
 <?php
-session_start();
-//Log the user out
-if(isset($_GET['logout']))
-{
-  unset($_SESSION['login']);
-  session_destroy();
-}
 
 if (!isset($_SESSION['login'])){
       header("Location: index.php");
 }
  ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,7 +35,7 @@ if (!isset($_SESSION['login'])){
 
       <hr>
 
-      <div class="footer">
+      <div align = "center" class="footer">
         <p>&copy; Knabe Properties llc.</p>
             <?php
         if (isset($_SESSION['login'])) {
